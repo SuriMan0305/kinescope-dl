@@ -1,8 +1,13 @@
 import click
+
 from urllib.parse import urlparse
 
 from kinescope import KinescopeVideo, KinescopeDownloader
 
+
+set FFMPEG_PATH=C:\path\to\ffmpeg.exe
+
+set MP4DECRYPT_PATH=C:\Users\mihai\Scam20\kinescope-dl\Bento4-SDK-1-6-0-641.x86_64-microsoft-win32\Bento4-SDK-1-6-0-641.x86_64-microsoft-win32\bin\mp4decrypt.exe
 
 class URLType(click.ParamType):
     name = 'url'
